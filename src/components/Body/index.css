@@ -1,0 +1,209 @@
+/* Write your CSS here */
+
+.body-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .body-main-container {
+    flex-direction: row;
+  }
+}
+
+.left-navbar-container {
+  background-color: #e2e8f0;
+  height: 250px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .left-navbar-container {
+    min-width: 200px;
+    width: 26%;
+    height: 350px;
+    align-items: flex-start;
+  }
+}
+
+.left-navbar-heading-body {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .left-navbar-heading-body {
+    font-size: 24px;
+    text-align: start;
+    margin-left: 15px;
+  }
+}
+
+.list-container-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container-body {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+    justify-content: flex-start;
+  }
+}
+
+.items-text {
+  list-style-type: none;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .items-text {
+    font-size: 18px;
+  }
+}
+
+.content-container-body {
+  margin-top: 10px;
+  background-color: #e2e8f0;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container-body {
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 10px;
+    flex-grow: 1;
+    width: 35%;
+    height: 350px;
+  }
+}
+
+.content-heading-body {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .content-heading-body {
+    font-size: 26px;
+    text-align: start;
+  }
+}
+
+.body-content-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .body-content-text {
+    font-size: 18px;
+    text-align: start;
+  }
+}
+
+.right-navbar-body {
+  background-color: #e2e8f0;
+  height: 250px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .right-navbar-body {
+    min-width: 200px;
+    width: 26%;
+    height: 350px;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+}
+
+.right-navbar-heading-body {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .right-navbar-heading-body {
+    font-size: 24px;
+    text-align: start;
+    margin-left: 15px;
+  }
+}
+
+.ad-body-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .ad-body-container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 15px;
+  }
+}
+
+.ad-text-body {
+  border: 2px solid #475569;
+  width: 120px;
+  height: 120px;
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .ad-text-body {
+    width: 110px;
+    height: 110px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,100 @@
+/* Write your CSS here */
+
+.configuration-controller-main-container {
+  background-color: #475569;
+  width: 100%;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .configuration-controller-main-container {
+    padding: 30px;
+  }
+}
+
+.layout-heading-configuration-controller {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .layout-heading-configuration-controller {
+    font-size: 32px;
+    margin-left: 25px;
+  }
+}
+
+.content-configuration-controller-container {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .content-configuration-controller-container {
+    margin-left: 25px;
+  }
+}
+
+.checkbox-configuration-container {
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .checkbox-configuration-container {
+    height: 25px;
+    width: 25px;
+    margin-right: 7px;
+  }
+}
+
+.content-configuration-container {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 4px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .content-configuration-container {
+    font-size: 17px;
+    margin-left: 7px;
+  }
+}
+
+.left-navbar-configuration-controller-container {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .left-navbar-configuration-controller-container {
+    margin-left: 25px;
+  }
+}
+
+.right-navbar-configuration-controller-container {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .right-navbar-configuration-controller-container {
+    margin-left: 25px;
+  }
+}
